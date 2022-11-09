@@ -1,0 +1,87 @@
+/*main {*/
+
+/*    margin-top: 20px;*/
+/*    width: 40%;*/
+/*    margin: auto;*/
+/*    height: auto;*/
+
+
+header {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: darkorchid;
+}
+.header-form button {
+    border: 2px solid #d291f3;
+    background: #d291f3;
+    padding: 8px 30px 8px 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+}
+.header-form button:hover {
+    background-color: darkorchid;
+    color: white;
+}
+.filter__f{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+/*.filter{*/
+/*    padding: 0 20px;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*}*/
+.filter_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.filter_block_b{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.publication {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    /*display: block;*/
+}
+.edit{
+    display: block;
+    background: rgba(210, 145, 243, 0.49);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border:2px solid rgba(210, 145, 243, 0.52);
+}
+.button{
+    border: 2px solid #d083f5;
+    background: #d083f5;
+    padding: 8px 30px 8px 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+}
+.button:hover {
+    background-color: rgba(234, 131, 245, 0.92);
+    color: white;
+}
+.text{
+    margin: 0 auto;
+    text-align: center;
+}
+.m{
+    margin: 20px;
+}
